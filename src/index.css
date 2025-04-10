@@ -1,6 +1,14 @@
 body {
-  background-color: hsl(180deg 25% 92%);
+  /* background-color: hsl(180deg 25% 92%); */
+
   margin: 0;
+}
+
+body::after {
+  content: '';
+  background-color: hsl(195deg, 20%, 86%);
+  height: 100px;
+  width: 100px;
 }
 
 *,
